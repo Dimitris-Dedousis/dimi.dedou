@@ -8,6 +8,13 @@
 
 **Email**: dimitri.dedou@gmail.com
 
+# Εκπαίδευση
+
+- 2ο ΕΠΑΛ ΚΑΛΑΜΑΤΑΣ
+> ΕΙΔΙΚΟΤΗΤΑ ΤΕΧΝΙΚΟΣ ΕΦΑΡΜΟΓΩΝ
+- Πανεπιστήμιο Δυτικής Αττικής
+> Μηχανικών Πληροφορικής και Υπολογιστών
+
 # **My Project**
 - [GrCode Club](https://grcodeclub.gr/)
 - [First GUI Project Python](https://github.com/Dimitris-Dedousis/first-GUI-Project-Python)
