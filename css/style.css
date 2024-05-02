@@ -3,6 +3,10 @@ body {
     margin: 0;
     
 }
+
+.li-items{
+    padding: 5px;
+}
 .container {
     padding: 20px;
     margin: 0;
