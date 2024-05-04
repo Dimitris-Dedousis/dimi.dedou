@@ -1,0 +1,23 @@
+/* Στυλ για κινητές συσκευές */
+  .container {  
+    display: grid;
+    grid-template-rows: 70px 100%;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "Header"
+    "Text";}
+
+    .Text { 
+      grid-area: Text;  
+      color: rgb(0, 0, 0);
+      width: 90%;
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+     
+
+
+.Header a{ 
+  color: white;
+  font-size: 50px;
+}
