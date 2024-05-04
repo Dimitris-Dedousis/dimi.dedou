@@ -4,6 +4,22 @@ table, th, td {
     text-align: center;
     color: white;}
 
+table a {
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+    }
+
+    
+      
+table a:hover {
+        background-color: #ffffff;
+        color: black;
+      }
+      
+
 div.search{
 text-align: center;
  }
