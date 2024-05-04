@@ -16,3 +16,17 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+
+.link_open {
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .link_open:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
