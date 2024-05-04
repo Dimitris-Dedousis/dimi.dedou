@@ -1,6 +1,7 @@
 table, th, td {
     border: 1px solid rgba(255, 255, 255, 0.176);
     border-collapse: collapse;
+    margin: 0 auto; /* Κέντρισμα οριζόντια με ορίστηκε περιθώριο */
     text-align: center;
     color: white;}
 
