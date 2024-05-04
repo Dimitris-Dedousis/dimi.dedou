@@ -26,6 +26,7 @@ ul {
     list-style-type: none;
     padding: 0;
     color: white;
+    font-size: 20px;
 }
 
 .link_open {
