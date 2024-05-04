@@ -1,15 +1,17 @@
 table, th, td {
-    border: 1px solid rgba(255, 255, 255, 0.176);
+    border: 1px solid rgba(0, 0, 0, 0);
     border-collapse: collapse;
-    margin: 0 auto; /* Κέντρισμα οριζόντια με ορίστηκε περιθώριο */
     text-align: center;
-    color: white;}
+    color: white;
+    padding: 7px;
+    margin: 0 auto; /* Κέντρισμα οριζόντια με ορίστηκε περιθώριο */
+}
 
 table a {
     background-color: #000000;
     color: white;
     text-decoration: none;
-    padding: 5px;
+    padding: 4px;
     border-radius: 10px;
     }
 
