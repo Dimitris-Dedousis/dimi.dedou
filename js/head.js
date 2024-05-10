@@ -10,6 +10,7 @@ const cssLinks = [
    "https://dimidedou.github.io/css/layout.css",
    "https://dimidedou.github.io/css/menu.css",
    "https://dimidedou.github.io/css/social.css",
+   "https://dimidedou.github.io/css/table.css",
    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 ];
 
