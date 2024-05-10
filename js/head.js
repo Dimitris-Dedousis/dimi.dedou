@@ -56,7 +56,7 @@ sizes.forEach(({ width, height, url }) => {
 // Δημιουργία στοιχείου <link> για το favicon .ico
 const icoFaviconLink = document.createElement('link');
 icoFaviconLink.rel = 'shortcut icon';
-icoFaviconLink.type = 'image/x-png';
+icoFaviconLink.type = 'image/x-ico';
 icoFaviconLink.href = 'https://dimidedou.github.io/files/logo/favicon.ico';
 
 // Προσθήκη του στοιχείου <link> στο <head> του εγγράφου
@@ -66,7 +66,7 @@ document.head.appendChild(icoFaviconLink);
 ///////////////////////////////
 // Θέτουμε το title της σελίδας
 ///////////////////////////////
-document.title = 'DΔΕΔΟΥΣΗΣ ΔΗΜΗΤΡΙΟΣ';
+document.title = 'ΔΕΔΟΥΣΗΣ ΔΗΜΗΤΡΙΟΣ';
 
 // Δημιουργία ενός νέου στοιχείου <meta>
 const metaElement = document.createElement('meta');
