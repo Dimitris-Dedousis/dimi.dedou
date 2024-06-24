@@ -8,20 +8,19 @@ body {
     background-attachment: fixed; /* Κάνει την εικόνα σταθερή */
     background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της εικόνας */
 }
+
 p{color: white;}
 h1{color: white;}
 h3{color: white;}
 li{color: white;}
-
-.li-items{
-    padding: 5px;
-}
+.li-items{padding: 5px;}
 
 h2 {
     border-bottom: 2px solid #ccc;
     padding-bottom: 10px;
     color: white;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -29,8 +28,23 @@ ul {
     font-size: 20px;
 }
 
-.grcode{
-    color:white;
+a.grcode {
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  box-shadow: #000000 0 -12px 6px inset;
+  color: #000000;
+  cursor: pointer;
+  font-size: 30px;
+  margin: 0;
+  padding: 1rem 1.3rem;
+  text-decoration: none;
+}
+
+a.grcode:hover {
+    background-color: #FFFFFF;
+    box-shadow: #000000 0 -6px 8px inset;
+    transform: scale(1.125);
 }
 
 
