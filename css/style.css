@@ -12,6 +12,7 @@ body {
     text-align:center; 
     background-color: black; 
     border-top-left-radius: 10px; 
+     margin: 0;
     border-top-right-radius: 10px;
   }
 
