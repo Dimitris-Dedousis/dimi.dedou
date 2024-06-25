@@ -18,8 +18,16 @@
         padding-left: 80px;
       }
 
-    .web-logo{background-color: rgb(255, 255, 255); border-radius: 10px; padding: 1%; }
-    .web-logo:hover{background-color: rgba(255, 255, 255, 0); transform: scale(1.1);}
+    .web-logo{
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 1%;
+        text-decoration: none;
+        color:black;}
+    .web-logo:hover{
+        background-color: rgba(255, 255, 255, 0); 
+        transform: scale(1.1);
+        color:white;}
 
     
 }
