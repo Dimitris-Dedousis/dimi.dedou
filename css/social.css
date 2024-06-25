@@ -11,7 +11,8 @@
     right: 0;
     background-color: black;
     color: white;
-    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 .social-item{
     padding-top: px;
