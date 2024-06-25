@@ -17,7 +17,17 @@
      list-style:none; 
      display: flex;}
 
-       .web-logo{background-color: rgb(255, 255, 255); border-radius: 10px; padding: 1%; box-shadow: #000000 0 -12px 6px inset;}
-       .web-logo:hover{background-color: rgba(255, 255, 255, 0); transform: scale(1.1);box-shadow: #000000 0 -12px 6px inset;}
+       .web-logo{
+           background-color: rgb(255, 255, 255); 
+           border-radius: 10px; 
+           padding: 1%; 
+           box-shadow: #000000 0 -12px 6px inset;
+           text-decoration: none;
+           color:black;}
+       .web-logo:hover{
+           background-color: rgba(255, 255, 255, 0); 
+           transform: scale(1.1);
+           box-shadow: #000000 0 -12px 6px inset;
+           color:white;}
 
 }
