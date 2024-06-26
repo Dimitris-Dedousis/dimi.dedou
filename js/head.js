@@ -4,7 +4,8 @@
 
 // Λίστα με τους συνδέσμους προς τα αρχεία CSS
 const cssLinks = [
-   "https://dimidedou.github.io/css/style.css",
+   "https://dimidedou.github.io/css/main.css",
+   "https://dimidedou.github.io/css/text.css",
    "https://dimidedou.github.io/css/mobile.css",
    "https://dimidedou.github.io/css/desktop.css",
    "https://dimidedou.github.io/css/layout.css",
