@@ -17,6 +17,10 @@
      list-style:none; 
      display: flex;}
 
+    .list-skiils{
+        display: flex;
+    }
+
        .web-logo{
            background-color: rgb(255, 255, 255); 
            border-radius: 10px; 
