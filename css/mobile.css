@@ -18,6 +18,10 @@
         padding-left: 80px;
       }
 
+    .list-skiils{
+        display: block;
+    }
+
     .web-logo{
         background-color: rgb(255, 255, 255);
         border-radius: 10px;
