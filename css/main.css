@@ -7,3 +7,9 @@ body {
     background-attachment: fixed; /* Κάνει την εικόνα σταθερή */
     background-repeat: no-repeat; /* Αποτρέπει την επανάληψη της εικόνας */
 }
+
+
+.txt-place{
+    border-radius: 20px;
+    background-color: rgba(52, 10, 135, 0.18);
+}
