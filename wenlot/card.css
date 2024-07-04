@@ -21,12 +21,9 @@
 }
 
 .card {
-    background-color: rgb(128, 4, 121);
     border-radius: 10px;
     color: white;
-    height: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-   
+    height: 300px;   
     min-width: 100%; /* Κάθε κάρτα καταλαμβάνει ολόκληρο το πλάτος του slider */
     box-sizing: border-box;
     transition: transform 0.2s, box-shadow 0.2s;
