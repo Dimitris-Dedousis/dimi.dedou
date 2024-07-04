@@ -1,0 +1,68 @@
+
+.slider {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 10px 8px 5px rgb(0, 0, 0);
+    
+}
+
+.slide-container {
+    display: flex;
+    transition: transform 0.5s ease;
+        border-radius: 10px;
+
+}
+
+.slides {
+    display: flex;
+}
+
+.card {
+    background-color: rgb(128, 4, 121);
+    border-radius: 10px;
+    color: white;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+    min-width: 100%; /* Κάθε κάρτα καταλαμβάνει ολόκληρο το πλάτος του slider */
+    box-sizing: border-box;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.data-card {
+   text-align: justify;
+   padding-left: 5%; 
+   padding-right: 5%;
+}
+
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+button.slide-prev {
+    left: 10px;
+}
+
+button.slide-next {
+    right: 10px;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
