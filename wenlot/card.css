@@ -1,18 +1,7 @@
 
-.slider {
-    position: relative;
-    max-width: 80%;
-    margin: auto;
-    overflow: hidden;
-    border-radius: 30px;
-    box-shadow: 10px 8px 5px rgb(0, 0, 0);
-    
-}
-
 .slide-container {
-    display: flex;
     transition: transform 0.5s ease;
-        border-radius: 10px;
+    border-radius: 10px;
 
 }
 
@@ -22,8 +11,7 @@
 
 .card {
     border-radius: 10px;
-    color: white;
-    height: 300px;   
+    height: 300px;  
     min-width: 100%; /* Κάθε κάρτα καταλαμβάνει ολόκληρο το πλάτος του slider */
     box-sizing: border-box;
     transition: transform 0.2s, box-shadow 0.2s;
@@ -31,8 +19,8 @@
 
 .data-card {
    text-align: justify;
-   padding-left: 5%; 
-   padding-right: 5%;
+   margin-left: 5%; 
+   margin-right: 5%;
 }
 
 
