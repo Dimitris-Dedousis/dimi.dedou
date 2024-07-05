@@ -15,6 +15,34 @@ header {
 
 
 
+.divider {
+  display: flex;
+  
+  &:before,
+  &:after {
+    content: "";
+    flex: 1;
+  }
+}
+
+.donotcross {
+    overflow: hidden;
+    align-items: center;
+    background: hsla(300, 100%, 50%, 0.171);
+    color: white;
+    height: 2em;
+      
+    &:before,
+    &:after {
+      background-color: purple;
+      padding: 50px 0;
+      height: 0;
+      transform: rotate(45deg);
+    }
+    
+  }
+
+
 .hero h1 {
     font-size: 3em;
     margin-bottom: 20px;
