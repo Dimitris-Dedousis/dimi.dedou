@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
     <title>WebLot - web develompent</title>
     <script src="./js/main-header.js"></script>
     <script src="./js/section.js"></script>
@@ -17,36 +17,17 @@
 </head>
 <body>
     <header id="main-header">
-     
-        <div class="show_desktop">
             <nav>
-                <a href="https://www.weblot.gr/">
-                    <img style="display: none;" id="logo-img" src="https://www.weblot.gr/files/img/logo-head.png" width="20%" class="hide">
+                <a class="show_desktop" href="https://www.weblot.gr/">
+                    <img style="display: none;" id="logo" src="https://www.weblot.gr/files/img/logo-head.png" width="20%" class="hide">
                 </a>
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
+                    <li class="show_desktop" ><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-    
-        </div>
-
-
-        <div class="show_mobile">
-                <nav>
-                    <a href="https://www.weblot.gr/">
-                        <img style="display: none; margin-left: 40%;" id="logo-img-mobile" src="https://www.weblot.gr/files/img/logo-head.png" width="20%" class="hide">
-                    </a>
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#services">Services</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                </nav>
-        </div>
     </header>
     
 
@@ -54,9 +35,9 @@
         <img class="logo" src="./files/img/logo-no-background.png">
         <h1 class="animated-text">Welcome to WebLot</h1>
     </section>
-    <section style="height: 70px;"></section>
+    <section style="height: 70px;" class="show_desktop"></section>
     <div id="about" style="height:50px;"></div>
-    <section style="color: white; height: 100vh; text-align: justify; margin:5%">
+    <section style="color: white; height: 100vh; text-align: justify;" class="show_desktop">
         <section class="box slider">
             <button class="slide-prev" aria-label="Previous Slide">&#10094;</button>
             <div class="slide-container">
