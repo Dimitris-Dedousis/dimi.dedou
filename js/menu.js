@@ -3,7 +3,7 @@ $(document).ready(function() {
     $('.sidebarMenuInner').append(menuLink);
     var  menuLink = '<li><a href="https://grcodeclub.gr/">GrCode Club</a></li>';
     $('.sidebarMenuInner').append(menuLink); 
-    var  menuLink = '<li><a href="./education">Σεμινάρια - Πιστοποιήσεις</a></li>';
+    var  menuLink = '<li><a href="./participation">Σεμινάρια - Πιστοποιήσεις</a></li>';
     $('.sidebarMenuInner').append(menuLink);
     var  menuLink = '<li><a href="./skills">Δεξιότητες</a></li>';
     $('.sidebarMenuInner').append(menuLink);
