@@ -7,6 +7,8 @@ $(document).ready(function() {
     $('.sidebarMenuInner').append(menuLink);
     var  menuLink = '<li><a href="./skills">Δεξιότητες</a></li>';
     $('.sidebarMenuInner').append(menuLink);
+    var  menuLink = '<li><a href="./skills#Platforms">Platforms</a></li>';
+    $('.sidebarMenuInner').append(menuLink);
     var  menuLink = '<li><a href="./project">Project</a></li>';
     $('.sidebarMenuInner').append(menuLink); 
     menuLink = '<li style="height: 200px;"></li>';
