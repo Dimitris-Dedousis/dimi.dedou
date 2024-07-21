@@ -4,14 +4,14 @@
 
 // Λίστα με τους συνδέσμους προς τα αρχεία CSS
 const cssLinks = [
-   "https://dimidedou.github.io/css/main.css",
-   "https://dimidedou.github.io/css/text.css",
-   "https://dimidedou.github.io/css/mobile.css",
-   "https://dimidedou.github.io/css/desktop.css",
-   "https://dimidedou.github.io/css/layout.css",
-   "https://dimidedou.github.io/css/menu.css",
-   "https://dimidedou.github.io/css/social.css",
-   "https://dimidedou.github.io/css/table.css",
+   "https://dimitridedou.github.io/css/main.css",
+   "https://dimitridedou.github.io/css/text.css",
+   "https://dimitridedou.github.io/css/mobile.css",
+   "https://dimitridedou.github.io/css/desktop.css",
+   "https://dimitridedou.github.io/css/layout.css",
+   "https://dimitridedou.github.io/css/menu.css",
+   "https://dimitridedou.github.io/css/social.css",
+   "https://dimitridedou.github.io/css/table.css",
    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 ];
 
@@ -35,10 +35,10 @@ cssLinks.forEach(linkUrl => {
 
 // Δημιουργία ενός πίνακα με τα μεγέθη που θέλετε να προσθέσετε
 const sizes = [
-  { width: 32, height: 32, url: 'https://dimidedou.github.io/files/logo/32x32.png' },
-  { width: 48, height: 48, url: 'https://dimidedou.github.io/files/logo/48x48.png' },
-  { width: 96, height: 96, url: 'https://dimidedou.github.io/files/logo/96x96.png' },
-  { width: 144, height: 144, url: 'https://dimidedou.github.io/files/logo/144x144.png' }
+  { width: 32, height: 32, url: 'https://dimitridedou.github.io/files/logo/32x32.png' },
+  { width: 48, height: 48, url: 'https://dimitridedou.github.io/files/logo/48x48.png' },
+  { width: 96, height: 96, url: 'https://dimitridedou.github.io/files/logo/96x96.png' },
+  { width: 144, height: 144, url: 'https://dimitridedou.github.io/files/logo/144x144.png' }
 ];
 
 // Προσθήκη των favicons για κάθε μέγεθος
@@ -58,7 +58,7 @@ sizes.forEach(({ width, height, url }) => {
 const icoFaviconLink = document.createElement('link');
 icoFaviconLink.rel = 'shortcut icon';
 icoFaviconLink.type = 'image/x-ico';
-icoFaviconLink.href = 'https://dimidedou.github.io/files/logo/favicon.ico';
+icoFaviconLink.href = 'https://dimitridedou.github.io/files/logo/favicon.ico';
 
 // Προσθήκη του στοιχείου <link> στο <head> του εγγράφου
 document.head.appendChild(icoFaviconLink);
