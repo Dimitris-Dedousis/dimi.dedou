@@ -4,76 +4,122 @@
     <meta name="google-site-verification" content="vp-gXK1Iatm75KuOgOuyJpfOf-7m36ZZ3H5lbHOCNSM" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GrCodeClub - ΔΗΜΗΤΡΙΟΣ ΔΕΔΟΥΣΗΣ</title>
+    <title>GrCodeClub</title>
     <script src="https://grcodeclub.gr/js/data.js"></script>
-    <link href="https://grcodeclub.github.io/website/css/grcodeclub/profile.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="addHeader"></div>
 
+
     <div class="container">
-        <br>
-        <h3 class="text-center"><strong>Προφίλ Χρήστη:</strong> ΔΗΜΗΤΡΙΟΣ ΔΕΔΟΥΣΗΣ</h3><br><br>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="Profile Picture">
-                    <div class="card-body">
-                        <h5 class="card-title">Προσωπικές Πληροφορίες</h5>
-                        <p class="card-text"><strong>Ηλικία:</strong> 30 ετών</p>
-                        <p class="card-text"> <i class="fa fa-envelope" ></i> <a href="mailto:dimitri.dedou@gmail.com">dimitri.dedou@gmail.com</a></p>
-                        <p class="card-text"> <i class="fa fa-phone" ></i> +30 690 000 0000</p>
+    
+        
+        <div class="row mt-6">
+            <!-- Αριστερή Στήλη (Κάρτα Προφίλ) -->
+            <div class="col-lg-4" style="position: relative;">
+                <div class="card shadow-sm">
+                    <img id="profileImage" class="card-img-top" alt="Profile Picture" style="height: 250px; object-fit: cover;">
+                    <div class="card-body text-center">
+                        <h3 class="card-title">Προσωπικές Πληροφορίες</h3><br>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" style="font-weight: bold;"><i class="fa fa-user" ></i><i class="fa fa-user" aria-hidden="true"></i>
+                            </span>
+                            <span class="input-group-text" id="myusername"></span>
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fa fa-venus-mars   fa-2x"></i></span>
+                            <span class="input-group-text" id="mygender"></span>
+                        </div>                        
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fa fa-calendar-alt  fa-2x"></i></span>
+                            <span class="input-group-text" id="myage"></span>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fa fa-envelope  fa-2x"></i></span>
+                            <span class="input-group-text" id="myemail"></span>
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text"><i class="fa fa-phone  fa-2x"></i></span>
+                            <span class="input-group-text" id="telephone"></span>
+                        </div>  
+                        <!-- Κοινωνικά Δίκτυα -->
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">   <i class="fab fa-facebook fa-2x"></i></span>
+                            <span class="input-group-text" id="facebookLink"></span>
+</div>
+<div class="input-group mb-3">
+    <span class="input-group-text">   <i class="fab fa-instagram fa-2x"></i></span>
+    <span class="input-group-text" id="instagramLink"></span>
+</div>
+                  
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
-                <h2 class="highlight">Σχετικά με Εμένα</h2>
-                <p>Φοιτητής Πανεπιστημίου Δυτικής Αττικής / Μηχανικός Πληροφορικής και Μηχανικών Υπολογιστών</p>
-            </div>
-        </div>
-        <br><br><br><br>
-        <!-- Δεξιότητες Section -->
-        <div class="full-width">
-            <h3 class="highlight">Δεξιότητες</h3>
-            <div class="row">
-                <div class="col-md-6">
-                    <h5>Γλώσσες Προγραμματισμού</h5>
-                    <ul class="list-group">
-                        <li class="list-group-item">HTML/CSS</li>
-                        <li class="list-group-item">JavaScript</li>
-                        <li class="list-group-item">Python</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <h5>Πλατφόρμες & Τεχνολογίες</h5>
-                    <ul class="list-group">
-                        <li class="list-group-item">React</li>
-                        <li class="list-group-item">Node.js</li>
-                        <li class="list-group-item">Express</li>
-                    </ul>
-                </div>
-            </div>
-        </div> <br><br><br><br>
-        <!-- Εκπαίδευση Section -->
-        <div class="full-width">
-            <h3 class="highlight">Εκπαίδευση</h3>
-            <div class="timeline">
-                <div class="timeline-item left">
-                    <span class="badge">Οκτώβριος 2023<br>εως σήμερα</span>
-                    <h5>Μηχανικός Πληροφορικής και Υπολογιστών (Πτυχίο Πληροφορικής)</h5>
-                    <p><strong>Πανεπιστήμιο Δυτικής Αττικής</strong></p>
-                    <p>Eνεργός φοιτητής</p>
-                </div>
-            </div>
-        </div><br><br><br><br>
 
-        <!-- Ενδιαφέροντα Section -->
-        <div class="full-width">
-            <h3 style="text-align: center;">Ενδιαφέροντα</h3>
-            <p>Εκτός από την προγραμματιστική μου εμπειρία, αγαπώ τον προγραμματισμό παιχνιδιών και την ανάπτυξη web εφαρμογών. Απολαμβάνω επίσης το τρέξιμο και την ανάγνωση βιβλίων τεχνολογίας και φαντασίας.</p>
+<br><br>
+
+
+            <!-- Δεξιά Στήλη (Πληροφορίες & Δεξιότητες) -->
+            <div class="col-lg-8 mb-4">
+                
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header">
+                        <h2 style="text-align: center;">Σχετικά με Εμένα</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>Φοιτητής Πανεπιστημίου Δυτικής Αττικής / Μηχανικός Πληροφορικής και Μηχανικών Υπολογιστών</p>
+                    </div>
+                </div>
+
+                <!-- Δεξιότητες Section -->
+                <div class="card shadow-sm mb-4">
+                        <div class="card-header">
+                            <h2 style="text-align: center;">Δεξιότητες</h2>
+                        </div>
+                        <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5>Γλώσσες Προγραμματισμού</h5>
+                                <ul class="list-group list-group-flush" id="programmingLanguages"></ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h5>Πλατφόρμες & Τεχνολογίες</h5>
+                                <ul class="list-group list-group-flush" id="platformsAndTechnologies"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Εκπαίδευση Section -->
+                <div class="card shadow-sm mb-4">
+                        <div class="card-header">
+                            <h2 style="text-align: center;">Εκπαίδευση</h2>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-body">
+                                <div id="educationContainer"></div>
+                            </div>                            
+                        </div>
+                    </div>
+
+                      <!-- Ενδιαφέροντα Section -->
+       
+
+
+                </div>
+                <div class="card shadow-sm">
+                    <div class="card-body text-center">
+                        <h3 >Ενδιαφέροντα</h3>
+                        <p>Εκτός από την προγραμματιστική μου εμπειρία, αγαπώ τον προγραμματισμό παιχνιδιών και την ανάπτυξη web εφαρμογών. Απολαμβάνω επίσης το τρέξιμο και την ανάγνωση βιβλίων τεχνολογίας και φαντασίας.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
     <div id="addFooter"></div>
+
+    <script src="./js/profileScript.js"></script>
 </body>
 </html>
