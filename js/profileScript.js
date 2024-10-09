@@ -1,6 +1,6 @@
 // Συνάρτηση για την φόρτωση των δεδομένων από το JSON αρχείο
 function loadProfileData() {
-    fetch('./js/data.json')  // Εξασφάλισε ότι η διαδρομή είναι σωστή
+    fetch('https://dimitridedou.github.io/js/data.json')  // Εξασφάλισε ότι η διαδρομή είναι σωστή
         .then(response => {return response.json();})
         .then(data => {
             const profile = data.profile[0];  // Αποθήκευση του πρώτου προφίλ από το JSON
