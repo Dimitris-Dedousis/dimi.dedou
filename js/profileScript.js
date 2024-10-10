@@ -9,6 +9,7 @@ function loadProfileData() {
             document.getElementById("myusername").innerText = profile.username;
             document.getElementById("telephone").innerText = profile.telephone;
             document.getElementById("mygender").innerText = profile.gender;
+            document.getElementById("info").innerText = profile.info;
 
             document.getElementById("myage").innerText = profile.age;
             document.getElementById("myemail").innerHTML = `<a href="mailto:${profile.email}">${profile.email}</a>`;
