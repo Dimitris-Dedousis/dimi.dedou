@@ -2,13 +2,13 @@
     "profile": [
         {
             "username": "Δημητρής Δεδούσης",
-            "gender": "Άρρεν",
+            "gender": "Θήλυ",
             "position": "Developer",
             "profileImage": "https://via.placeholder.com/150?text=User+1",
             "profileLink": "https://dimitridedou.github.io",
             "age": "6/11/2000",
             "email": "dimitri.dedou@gmail.com",
-            "telephone": "690 000 1",
+            "telephone": "690 000 0000",
             "skills": {
                 "programmingLanguages": [
                     "HTML/CSS",
