@@ -1,35 +1,25 @@
 {
     "profile": [
         {
-            "id": "dimitridedou.github.io",
             "username": "Δημητρής Δεδούσης",
-            "gender":"Άρρεν",
+            "gender": "Άρρεν",
             "position": "Developer",
             "profileImage": "https://via.placeholder.com/150?text=User+1",
             "profileLink": "https://dimitridedou.github.io",
-            "age":"6/11/2000",
+            "age": "6/11/2000",
             "email": "dimitri.dedou@gmail.com",
-            "telephone":"690 000 0000",
+            "telephone": "690 000 1",
             "skills": {
-                    "programmingLanguages": ["HTML/CSS","JavaScript","Python"],
-                    "platformsAndTechnologies": ["Wordpress","Android Studio"]
+                "programmingLanguages": [
+                    "HTML/CSS",
+                    "JavaScript",
+                    "Python"
+                ],
+                "platformsAndTechnologies": [
+                    "Wordpress",
+                    "Android Studio"
+                ]
             }
         }
-    ],
-    "education": [
-        {
-          "duration": "Οκτώβριος 2023 - εως σήμερα",
-          "part": "Μηχανικός Πληροφορικής και Υπολογιστών",
-          "institution": "Πανεπιστήμιο Δυτικής Αττικής",
-          "status": "Ενεργός φοιτητής",
-          "degree": "-"
-        }
-      ],
-      "social": [
-        {
-          "facebook": "Οκτώβριος 2023 - εως σήμερα",
-          "insta": "Μηχανικός Πληροφορικής και Υπολογιστών"
-        }
     ]
-
 }
