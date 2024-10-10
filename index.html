@@ -1,125 +1,82 @@
 <!DOCTYPE html>
 <html lang="el">
-<head>
-    <meta name="google-site-verification" content="vp-gXK1Iatm75KuOgOuyJpfOf-7m36ZZ3H5lbHOCNSM" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GrCodeClub</title>
-    <script src="https://grcodeclub.gr/js/data.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="addHeader"></div>
-
-
-    <div class="container">
-    
-        
-        <div class="row mt-6">
-            <!-- Αριστερή Στήλη (Κάρτα Προφίλ) -->
-            <div class="col-lg-4" style="position: relative;">
-                <div class="card shadow-sm">
-                    <img id="profileImage" class="card-img-top" alt="Profile Picture" style="height: 250px; object-fit: cover;">
-                    <div class="card-body text-center">
-                        <h3 class="card-title">Προσωπικές Πληροφορίες</h3><br>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" style="font-weight: bold;"><i class="fa fa-user" ></i><i class="fa fa-user" aria-hidden="true"></i>
-                            </span>
-                            <span class="input-group-text" id="myusername"></span>
-                        </div>
-
-                        <div class="input-group mb-3">
-                            <span class="input-group-text"><i class="fa fa-venus-mars   fa-2x"></i></span>
-                            <span class="input-group-text" id="mygender"></span>
-                        </div>                        
-                        <div class="input-group mb-3">
-                            <span class="input-group-text"><i class="fa fa-calendar-alt  fa-2x"></i></span>
-                            <span class="input-group-text" id="myage"></span>
-                        </div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text"><i class="fa fa-envelope  fa-2x"></i></span>
-                            <span class="input-group-text" id="myemail"></span>
-                        </div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text"><i class="fa fa-phone  fa-2x"></i></span>
-                            <span class="input-group-text" id="telephone"></span>
-                        </div>  
-                        <!-- Κοινωνικά Δίκτυα -->
-                        <div class="input-group mb-3">
-                            <span class="input-group-text">   <i class="fab fa-facebook fa-2x"></i></span>
-                            <span class="input-group-text" id="facebookLink"></span>
-</div>
-<div class="input-group mb-3">
-    <span class="input-group-text">   <i class="fab fa-instagram fa-2x"></i></span>
-    <span class="input-group-text" id="instagramLink"></span>
-</div>
-                  
-                    </div>
-                </div>
-            </div>
-
-<br><br>
-
-
-            <!-- Δεξιά Στήλη (Πληροφορίες & Δεξιότητες) -->
-            <div class="col-lg-8 mb-4">
-                
-                <div class="card shadow-sm mb-4">
-                    <div class="card-header">
-                        <h2 style="text-align: center;">Σχετικά με Εμένα</h2>
-                    </div>
-                    <div class="card-body">
-                            <span class="input-group-text" id="info"></span>
-                    </div>
-                </div>
-
-                <!-- Δεξιότητες Section -->
-                <div class="card shadow-sm mb-4">
-                        <div class="card-header">
-                            <h2 style="text-align: center;">Δεξιότητες</h2>
-                        </div>
-                        <div class="card-body">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h5>Γλώσσες Προγραμματισμού</h5>
-                                <ul class="list-group list-group-flush" id="programmingLanguages"></ul>
+    <head>
+        <meta name="google-site-verification" content="vp-gXK1Iatm75KuOgOuyJpfOf-7m36ZZ3H5lbHOCNSM" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GrCodeClub</title>
+        <script src="https://grcodeclub.gr/js/data.js"></script>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div id="addHeader"></div>
+        <div class="container">        
+            <div class="row mt-6"> <!-- Αριστερή Στήλη (Κάρτα Προφίλ) -->
+                <div class="col-lg-4" style="position: relative;">
+                    <div class="card shadow-sm">
+                        <img id="profileImage" class="card-img-top" alt="Profile Picture" style="height: 250px; object-fit: cover;">
+                        <div class="card-body text-center">
+                            <h3 class="card-title">Προσωπικές Πληροφορίες</h3><br>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" style="font-weight: bold;"><i class="fa fa-user"></i></span>
+                                <span class="input-group-text" id="myusername"></span>
                             </div>
-                            <div class="col-md-6">
-                                <h5>Πλατφόρμες & Τεχνολογίες</h5>
-                                <ul class="list-group list-group-flush" id="platformsAndTechnologies"></ul>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="fa fa-venus-mars   fa-2x"></i></span>
+                                <span class="input-group-text" id="mygender"></span>
+                            </div>                        
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="fa fa-calendar-alt  fa-2x"></i></span>
+                                <span class="input-group-text" id="myage"></span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="fa fa-envelope  fa-2x"></i></span>
+                                <span class="input-group-text" id="myemail"></span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="fa fa-phone  fa-2x"></i></span>
+                                <span class="input-group-text" id="telephone"></span>
+                            </div>  
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="fab fa-facebook fa-2x"></i></span>
+                                <span class="input-group-text" id="facebookLink"></span>
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text"><i class="fab fa-instagram fa-2x"></i></span>
+                                <span class="input-group-text" id="instagramLink"></span>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <!-- Εκπαίδευση Section -->
-                <div class="card shadow-sm mb-4">
-                        <div class="card-header">
-                            <h2 style="text-align: center;">Εκπαίδευση</h2>
-                        </div>
+                <br><br>
+                <div class="col-lg-8 mb-4"> <!-- Δεξιά Στήλη (Πληροφορίες & Δεξιότητες) -->
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-header"><h2 style="text-align: center;">Σχετικά με Εμένα</h2></div>
+                        <div class="card-body"><span class="input-group-text" id="info"></span></div>
+                    </div>
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-header"><h2 style="text-align: center;">Δεξιότητες</h2></div>
                         <div class="card-body">
-                            <div class="card-body">
-                                <div id="educationContainer"></div>
-                            </div>                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h5>Γλώσσες Προγραμματισμού</h5>
+                                    <ul class="list-group list-group-flush" id="programmingLanguages"></ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5>Πλατφόρμες & Τεχνολογίες</h5>
+                                    <ul class="list-group list-group-flush" id="platformsAndTechnologies"></ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
-
-                      <!-- Ενδιαφέροντα Section -->
-       
-
-
-                </div>
-                <div class="card shadow-sm">
-                    <div class="card-body text-center">
-                        <h3 >Ενδιαφέροντα</h3>
-                        <p>Εκτός από την προγραμματιστική μου εμπειρία, αγαπώ τον προγραμματισμό παιχνιδιών και την ανάπτυξη web εφαρμογών. Απολαμβάνω επίσης το τρέξιμο και την ανάγνωση βιβλίων τεχνολογίας και φαντασίας.</p>
-                    </div>
+                    <div class="card shadow-sm mb-4">
+                        <div class="card-header"><h2 style="text-align: center;">Εκπαίδευση</h2></div>
+                        <div class="card-body"><span id="educationContainer"></span></div>                            
+                    </div>       
                 </div>
             </div>
         </div>
-    </div>
-    <div id="addFooter"></div>
-
-    <script src="./js/profileScript.js"></script>
-</body>
+        <div id="addFooter"></div>
+        <script src="./js/profileScript.js"></script>
+    </body>
 </html>
