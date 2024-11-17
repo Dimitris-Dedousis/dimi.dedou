@@ -63,7 +63,7 @@
                             </div>
                             <div class="input-group mb-3">
                                 <span class="input-group-text"><i class="fa fa-x"></i></span>
-                                <span class="input-group-text" id="instagramLink"><a href="https://www.linkedin.com/in/dimitridedou/">Dimitris Dedousis</a></span>
+                                <span class="input-group-text" id="instagramLink"><a href="https://x.com/dimitridedou">Dimitris Dedousis</a></span>
                             </div>
                         </div>
                     </div>
@@ -72,27 +72,68 @@
                 <div class="col-lg-8 mb-4"> <!-- Δεξιά Στήλη (Πληροφορίες & Δεξιότητες) -->
                     <div class="card shadow-sm mb-4">
                         <div class="card-header"><h2 style="text-align: center;">Σχετικά με Εμένα</h2></div>
-                        <div class="card-body"><span class="input-group-text" id="info"></span></div>
-                    </div>
+                        <div class="card-body">
+                            <p>Γεια σας! Είμαι ο Δημήτρης Δεδούσης, από το 2017 ασχολούμαι με την τεχνολογία, με κύριο προσανατολισμό το Development. Το πάθος μου για τη δημιουργία καινοτόμων λύσεων με ώθησε να εξειδικευτώ στην ανάπτυξη εφαρμογών, δίνοντας ιδιαίτερη έμφαση τόσο στη λειτουργικότητα όσο και στην ασφάλεια των έργων μου.
+                                <br><br>
+                                Πέρα από τον ρόλο μου ως Developer, ενδιαφέρομαι ιδιαίτερα για τον τρόπο λειτουργίας των δικτύων και την ασφάλεια στον κυβερνοχώρο (Cybersecurity). Το ενδιαφέρον μου για το Cybersecurity δεν είναι τυχαίο· αποσκοπεί στο να εφαρμόζω βέλτιστες πρακτικές και τεχνικές που διασφαλίζουν ότι τα projects μου, ειδικά όσα περιλαμβάνουν ευαίσθητα δεδομένα, παραμένουν ασφαλή και αξιόπιστα.
+                                <br><br>
+                                Συνδυάζοντας τις γνώσεις μου στην ανάπτυξη λογισμικού με τις αρχές της κυβερνοασφάλειας, στοχεύω να δημιουργώ λύσεις που ξεχωρίζουν όχι μόνο για την αποτελεσματικότητά τους, αλλά και για την προστασία που προσφέρουν στους χρήστες.
+                                <br><br>
+                                Ανυπομονώ να εξελίσσομαι συνεχώς και να συμβάλλω σε projects που κάνουν τη διαφορά στον κόσμο της τεχνολογίας!
+                                <br><br><strong>Δημήτρης Δεδούσης</strong>
+                            </p></div>                    </div>
+                    
                     <div class="card shadow-sm mb-4">
                         <div class="card-header"><h2 style="text-align: center;">Δεξιότητες</h2></div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <h5>Γλώσσες Προγραμματισμού</h5>
-                                    <ul class="list-group list-group-flush" id="programmingLanguages"></ul>
-                                </div>
-                                <div class="col-md-6">
-                                    <h5>Πλατφόρμες & Τεχνολογίες</h5>
-                                    <ul class="list-group list-group-flush" id="platformsAndTechnologies"></ul>
+
+                                <div class="accordion" id="roadmapAccordion">
+            
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#programmingLanguages" aria-expanded="true" aria-controls="programmingLanguages">Γλώσσες Προγραμματισμού</button></h2>
+                                        <div id="programmingLanguages" class="accordion-collapse collapse show" aria-labelledby="programmingLanguages" data-bs-parent="#roadmapAccordion">
+                                        <div class="accordion-body">
+                                           <h4>C, Python, Html, CSS, JavaScript</h4>                                        
+                                        </div>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#platforms" aria-expanded="false" aria-controls="platforms">Πλατφόρμες</button></h2>
+                                        <div id="platforms" class="accordion-collapse collapse" aria-labelledby="platforms" data-bs-parent="#roadmapAccordion">
+                                            <div class="accordion-body">
+                                                <h4>Hack The Box</h4>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="card shadow-sm mb-4">
-                        <div class="card-header"><h2 style="text-align: center;">Εκπαίδευση</h2></div>
-                        <div class="card-body"><span id="educationContainer"></span></div>                            
-                    </div>       
+                        <div class="card-header">
+                          <h2 style="text-align: center;">Εκπαίδευση</h2>
+                        </div>
+                        <div class="card-body" style="height: 400px; overflow-y: auto;">
+                              <!-- Card 1 -->
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Μηχανικών Πληροφορικής και Υπολογιστών</h5>
+                                  <h6 class="card-subtitle mb-2 text-muted">Πανεπιστήμιο Δυτικής Αττικής</h6>
+                                  <p class="card-text">2018 - Μέχρι σήμερα (Ενεργός φοιτητής)</p>
+                                </div>
+                              </div>
+                              <!-- Card 2 -->
+                              <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">Τεχνικός Εφαρμογών</h5>
+                                  <h6 class="card-subtitle mb-2 text-muted">2ο ΕΠΑΛ ΚΑΛΑΜΑΤΑΣ</h6>
+                                  <p class="card-text">Έτος αποφοίτησης: 2018</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                 </div>
             </div>
         </div>
